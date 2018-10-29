@@ -10,9 +10,9 @@ Note the volumes for the agent - especially the "/var/run/docker.sock:/var/run/d
 
 To start it:
 
-'''bash
+```bash
 docker-compose up
-'''
+```
 
 When it's up, navigate your favourite browser to http://localhost:8111 and step through the questions asked.
 
