@@ -8,7 +8,7 @@ See [this](https://github.com/vidarberg/teamcity_docker_in_docker_test/blob/mast
 
 Note the volumes for the agent - especially the "/var/run/docker.sock:/var/run/docker.sock". This makes the Docker host system available to the agent.
 
-To start it:
+To start it, make sure you're inside the folder where the docker-compose.yml file is and run this:
 
 ```bash
 docker-compose up
