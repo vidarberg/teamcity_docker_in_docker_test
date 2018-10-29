@@ -4,7 +4,7 @@ Running the build-system TeamCity in Docker is very easy to set up. However, to 
 This project tries out building a clean ASP.NET Core 2.1 Docker project created with the wizard in Visual Studio Community 2017 (15.8.7).
 
 ## Set up TeamCity server and an agent in Docker
-See [this](https://github.com/vidarberg/teamcity_docker_in_docker_test/docs/docker-compose.yml) for the configuration I used to start one TeamCity server and one agent.
+See [this](https://github.com/vidarberg/teamcity_docker_in_docker_test/blob/master/docs/docker-compose.yml) for the configuration I used to start one TeamCity server and one agent.
 
 Note the volumes for the agent - especially the "/var/run/docker.sock:/var/run/docker.sock". This makes the Docker host system available to the agent.
 
